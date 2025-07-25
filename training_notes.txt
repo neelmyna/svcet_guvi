@@ -1,0 +1,365 @@
+Assume we are on training/workshop for 5 days on:
+MERN stack
+JavaFS
+
+Apps that we need:
+1. Notepad++		For making quick notes
+2. vs-code			IDE
+3. MongoDB (server(DBMS), shell, GUI-Compass)
+4. Node				node and npm
+5. Postman			To test the backend App
+6. Github			version control
+
+Google: download notepad++
+Link:
+Download the setup file (.msi file) or installer file
+
+ORGANISING/ARRANGING Files and Folders in our system:
+Create a folder named "software" in C drive (We use C drive for the OS and the software/Apps)
+Ask the students to use D drive for personal (images, movies, songs etc)
+And E drive for Learning (materials, development etc.)
+Then save the setup files in each of the respective folder.
+From here, we install the Apps.
+
+IMPORTANT THING:
+Some Apps like databases (MySQL, MongoDb) are visible only in the path (folder) where they are installed. Thus the CLIs (Apps) are not avialble globally.
+
+KEYBOARD SHORTCUTS:
+
+LEARNING IN DEPTH:
+
+Arithmetic Operators:
++ - * / % // **
+
+All are Binary Operators (We need to Operands/Values)
+The I/P to any of these operators are Numbers
+The O/P is a number
+We use these operators with operands by putting the operator in between the operands. Which is called as InFix notation.
+For example consider, x + y
+Here x + y is an expression.
+But, x itself is also an expression.
+However, we observe that x is also a value.
+Lastly, we may have the x + y expression itself part of a larger expression.
+We (users)use Infix notation. However the Compiler/system needs the expression to be in Postfix.
+Because the expressions have to follow BrodMas Rule.
+When we have an expression such as 45 + 5.05
+Here the expression is not solved as it is. Or it cannot be solved.
+Because, the way 45 is stored in memory and the way 5.05 is stored are totally different.
+To preserve the Precission, 45 must be converted to float/double. Only then the expression is evaluated.
+Remember, the postive integers, -ve integers and floating point numbers are stored differently.
+
+5 - 7 // 8 / 2 ** 3
+Here power operator is evaluated 1st
+And lastly the subtraction.
+-------------------------------------------------
+FrontEnd Development
+
+GUI
+Back in 1972 when Denis Ritchie and the MIT university Interns built Unix using C (which was actually translated from BCPL to C) That is from Multix to Unix OS,
+the developers gave the tagline "by the professionals for the professionals"
+
+The developers though were highly intelligent, were not able to anticipate the future.
+However, after the invemtion of C++ in 1983, in late 1980s, it was Bill Gates who anticipated PCs (Personal Computers). Till then nobody had thought that even a common man would use Computers.
+
+But for a common man to use a computer it must ease to use. Not the DOS where we type in programming kind of commands.
+
+Thats where and how the GUI was invented from Windows OS.
+In early 1990s, Unix added the GUI to it and called it X-windows.
+
+Later with the invent of Java and internet, we required more focus on GUI.
+
+Thats where the Windows/Applets were introduced.
+
+Later the use of Internet widened to lot of Domains (Banking, Education, Government, Defence, Manufacturing etc.)
+We reuired an App and many a software installed in it which is Web Browser
+
+WEb browser has: Compilers for JS, CSS, HTML, XML and others.
+Cache, temperory memory, Network protocols, Console, Developer settings, Encription, Decription and so on.....
+-----------------------------
+SRP
+cohesion and coupling
+
+-----------------------------
+Bootstrap
+
+1. Download and use the framework locally
+2. use the CDN
+3. Install using CLIs like pip, npm
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+bootstrap.css
+bootstrap.min.css
+-----------------------
+FUNCTION CALL STACK
+
+Special Purpose Registers:
+IR
+PC
+SP
+FP
+
+MDR
+MAR
+Accumalator
+
+FRAME: is memory allocated to a function during runtime.
+Contents of the Frame:
+Local variables (block variables), function parameters/arguments, function addresses/linkages and return address.
+
+Data Structures:
+Stack
+Queue
+Priority Queue
+
+Problems:
+	1. Implement a Queue using 2 Stacks
+	2. Implement Circular Queue using an array
+	3. Implement Stack and Queue using Linked List (4 problems)
+	
+When we implement Stack using Singly Linked List, the 2 operations push and pop must be done at front end of the Singly Linked list. So that we enjoy O(1) efficiency for both the operations.
+
+Any operation done at rear end of the Singly LL has an efficiency of O(N)
+
+What is the efficiency of deleting an element from rear end of the Double Linked List ?
+O(1)
+In doubly linked lists we can traverse in 2 directions.
+To traverse from rear to towards front we must know the address of rear/last node.
+Hence, we always store addresses of front and rear in case of doubly linked list.
+
+RECURSION:
+If a Problem X can be solved easily using Iterative method (using loop) and also using recursion (recursive function), which is the better way of solving the problem ?
+Iteratively. Because there is no over head of multiple function calls (memory utilization and also time efficiency going south).
+
+However, certain problems like traversing a binary tree (inorder, preorder, postorder), tower of brahma (hanoi), etc cannot be easily solved using iterative way. But very easy to solve recursively.
+---------------------------------------------------
+THE PARTITION ALGORITHM:
+
+The loop counter 'i' increments unconditionally. i.e. to access every element in the list.
+The 'k' increments only when we find a smaller element than the pivot. And then we swap the elements at indices i and k.
+Now, once we have accessed all the elements in the list, the k is the index of the pivot element. And once the pivot element is placed, that's it! Thus the pivot element, once in its final position, it PARTITIONS the given array into 2 parts (Wrong to say 2 Halves)
+
+Efficiency of PARTITION algorithm is O(N)
+
+2  4  6  9  13  19  30  45
+
+77  66  44 30  25  20  10  5  1
+
+71 13 29 3 7 2 23 17 13 31 41 37 5
+
+When an array is having a single element, it is already sorted!
+
+W.C.E of Quick sort is O(N square) which is when the input list is alreday almost sorted and we keep placing the pivot elements every time at corner of the unsorted list.
+
+The strategy/machanism of Quick Sort ALGORITHM is divide & conquer
+----------------------------------------------------------
+BINARY SEARCH:
+Pre requisite of binary search is that it must be sorted.
+What if the order of sorting is unknown ?
+Then we cannot apply the algorithm for such input.
+
+Test Cases:
+Let the search element be the very mid element
+Let the search element be the very 1st element
+Let the search element be the very last element
+Let the search element be less than the 1st element
+Let the search element be greater than the last element
+Let the search element be in between element
+Let the input list has multiple copies of the search element, then which element the algorithm says it has found ?
+ANSWER: The left most element 
+
+0 12 12 15 20 22 33 44 50
+
+What is the BCE of Insertion sort?
+O(n)
+WCE is O(N square)
+
+In the best case scenario of Insertion sort, it looks as if we are copying elements of an array into another, which is O(N)
+That means, for every insertion of an element there is hardly any shifts.
+
+What is the worst case scenario for Insertion sort?
+-> The input list size is very big and the last M elements need to be placed in the 1st M positions of the list.
+
+Insertion sort must avoided when?
+When the input list size is too big.
+
+Why the inner loop of insertion sort cannot be for loop ?
+Because the number of shifts is not fixed.
+
+Why the inner loop of insertion sort cannot be do-while loop ?
+Because the number of shifts can be Zero or more
+
+When the bubble sort is very useful?
+When the input list is smaller and it is already some what or almost sorted. Thus the efficiency will be O(N) [only if the bubble sort is optimized]
+
+What is the worst case scenario of un-optimised bubble sort?
+The best case and the worst case efficiency are same!
+
+What sorting technique we can use to sort a linked list?
+Bubble sort. Because we must move from one end (front end) of the linked list towards the other consecutively.
+
+What is the efficiency of shifting an element in an array ?
+O(N) is the worst case
+O(1) the best case
+
+What is the efficiency of optimized bubble sort ?
+O(N)
+where there is only one iteration of the outer loop.
+
+What doesn't happen in the absolute best case scenario of bubble sort?
+There wont be any swaps of the consecutive elements.
+
+In many a sorting techniques the outer loop access elements of the input array (bubble, insertion, selection)
+
+What is the commonality between bubble, selection, insertion, quick, merge, heap sorts?
+All these depend on Comparisons!
+
+Which is the sorting technique which doesn't need comparison of elements?
+Radix Sort (Counting sort)
+It depends on the positions of the digits in the numbers.
+
+How can we improve the speed of Linear search or for that matter, any of the sorting techniques and how?
+
+By using the Multi threading concept. Divide the input list that need to be searched or sorted and apply the sorting/searching on each of the divided smaller sized lists using individual threads.
+
+Thus, each of the Buckets in the Bucket sort can be sorted by one thread!
+
+What is the efficiency of merge operation of merge sort?
+O(N)
+Because it is linear
+
+Which sorting technique is said to be Stable Sorting technique and why ?
+Merge Sort. Because in all the cases (best case scenario and upto worst case) the efficeincy remain O(N log N). which means, the job done in all the cases is almost same.
+
+Which sorting algorithm is said to be Optimistic and why?
+Insertion sort.
+Because even before we apply any sorting, we optimistically observe that there is already a sorted array! which is not found in quick sort, selection or bubble etc.
+The very 1st or last element is considered to be the sorted array. This is possible because single element arrays are always sorted!
+
+Which sorting technique works on decrease and conquer ? What is decreased? And in contrast what is increased?
+Insertion sort
+The unsorted part of the input array decreases.
+In the mean while the sorted array size increases.
+
+What is the draw back and the worst case scenario in merging algorithm of merge sort in almost all the solutions for merge sort available in the internet ?
+Duplicate arrays are created to store the divided arrays from the input array.
+
+Where do you insert the new element in the insertion sort?
+Left part of the array with smaller indices or Right part of the array with bigger indices?
+Answer: Left part of the array with smaller indices.
+
+TREES:
+What is depth of a node?
+Height from the node to the leaf node with longest path.
+
+What is height of a Tree ?
+The maximum possible depth from the root.
+
+What is a leaf node?
+A node having no child nodes (brahmachari node)
+
+What is balance factor of a node? And in which Tree is it important?
+The BF is the difference of the heights of the Left and right childs which are found recursively from the leaf nodes
+
+What is complete binary tree?
+A tree with amlost or exactly (2 power N) - 1 nodes in it.
+
+Why balancing is important w.r.t. a tree ?
+So that we can enjoy WCE of O(Log N) for operations such as CRUD
+
+What is BST ?
+A binary tree with nodes having data that can be compared numerically. A binary tree with recursively having the property of any node where its left child node data is lesser than or equal to and the right child node having data greater than or equal to the parent/current node data.
+
+why BBST is prefered ?
+Because we get O(Log N) for operations such as CRUD
+
+What is the WCE of searching an element in a BST?
+O(N)
+Thats when we have only left child nodes or only right child nodes for every node in the tree which is exactly a linear singly liked list
+
+What is the efficeincy of adding an element in a BST ?
+O(N) because the BST may be highly imbalanced
+
+What is the efficeincy of adding an element in a balanced BST ?
+O(Log N) because the BST may be highly imbalanced
+
+Where is the new node always added in a BST ?
+It is added as leaf node
+
+What is the WCE of searching an element in a balanced BST?
+O(Log N)
+
+What is strictly binary tree?
+A binary tree with all nodes having exactly 0 or 2 child nodes.
+
+What is root of a tree?
+The starting/entry point of a Tree
+Example: This PC (My computer) in our systems. 
+
+While using recursion how many root nodes do you find a complete binary tree?
+(2 power N)-1
+
+How many maximum nodes can you find in a binary tree of height N ?
+(2 power N)-1
+
+How many different traversals are there in a binary tree and what is common 
+between them ?
+There are 3 traversals and common things is that the Left always appreas before Right.
+
+How many scenarios are there when we delete a node from a BST ?
+There are 3 scenarios.
+A node with zero child nodes
+A node with one child nodes
+A node with two child nodes
+
+What happens when we delete a node with 2 children in a BST ?
+The balancing is affected and it worsens.
+-----------------------------------------------
+MANTRAS:
+1. While answering to a question it must be in sentence not word.
+2. Answer by giving pause to every sentence and slowly so that the person listening gets enogh time to process and understand what we speak.
+3. Always be cautious that your Answer is being understood by the listener.
+4. If you feel your explanation is difficult to Envisage, ask the students to listen carefully. And try repeating what you said at least twice.
+5. ANSWER TO THE QUESTION, NOT WHAT YOU LIKE.
+6. THE CODE WE DEFINE/IMPLEMNET MUST BE UNDERSTOOD BY ANY PROGRAMMER IN THE WORLD.
+7. THE OUTPUT THE CODE/PROGRAM GENERATE MUST BE UNDERSTANDABLE BY COMMON PERSON.
+8. Ask the students to never Cook (Lie) the answers during Viva or interviews. Rather it is good to skip the question with polite Sorry!
+9. It is always good to answer the question staright forwardly (definition) and then give a good example and later if time is allowed then explanation.
+10. When a student uses AI (chat GPT, Co-pilot), we are training the servers. Not our Mind!
+11. AI must be used only when we are confident of the subject better than the AI models!
+12. It is big foolishness to skip questions when there is no negative marking.
+13. It is big foolishness to skip questions when there is negative marking without calculating the correctness of our answer.
+For example, when the negative marking is 25% (0.25 marks) and they have given 4 options to choose from. And we know 2 of them are wrong. Or may be we know that the answer lies in between 2 options among the 4 given, then we can clearly see that the chances of correctness is 50% which is higher than the negative marking, so we must take a chance and answer this question.
+
+2-2 trees
+AVL tree
+BFS (application of queue) is used by facebook to give friend suggestion.
+DFS (application of atack)
+
+Types of Problem Solving:
+Conditional
+Iterative
+Recursive
+Greedy technique
+Back tracking
+Dynamic programming
+
+Primarily what they must learn (technically):  
+Any 2 programming languges (concepts) + DSA + problem solving
+Later they can foray into technologies:
+web app development
+	frontend frame works
+	CSS frameworks
+	JS experts
+	backend programming
+	DB expert
+Cyber security and Networking
+Embedded
+Core language concepts (OOP, OOAD, multi threading,exception handling collections etc.)
+
+SECRET TECHNOLOGIES: (demand is higher than supply)
+Modern C++
+IOT
+Deep learning Algorithms expert
+Data science with ML (IIT Madras DS 4 year course curriculam)
+Dev Ops and Cloud Computing
