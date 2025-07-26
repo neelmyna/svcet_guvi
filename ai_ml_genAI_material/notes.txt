@@ -1,0 +1,217 @@
+Welcome To Gen-AI
+
+What You Will Learn in This Module
+
+Fundamentals: Understand the concept of Generative AI and learn how it differs from other types of AI.
+How It Works: Ever wondered what happens "behind the scenes" when AI creates something new? We will use a straightforward analogy to help you understand.
+Tools: Get practical experience with ChatGPT and Microsoft Copilot, two powerful AI tools you can start using immediately.
+Art of the Prompt: Learn the secrets of interacting with AI effectively using the helpful PROMPT framework.
+Advanced Techniques: Improve your prompting skills with Zero-shot, Few-shot, and Chain-of-Thought prompting.
+
+WHAT YOU WILL ACHIEVE:
+Gain a Strong Foundation In Generative AI Concepts
+Understand how AI generates new content 
+Learn to use AI tools like ChatGPT And Copilot effectively
+Develop better AI interactions using Structured prompts
+Apply advanced prompting techniques to get high-quality AI outputs
+
+While Traditional AI are used for making predictions (wheather reports, cricket scores, winning probability etc.), the Gen AI is to create new content. Thus the Content Creators are using Gen AI tools.
+
+LLM:
+In artificial intelligence, LLM stands for Large Language Model. It's a type of AI model that is trained on massive amounts of text data to understand, generate, and manipulate human language. LLMs can perform tasks like text generation, translation, summarization, and question answering.
+--------------------------------------------------------------------
+Gen AI
+Generative AI
+Generative Artificial Intelligence
+
+Artificial Intelligence
+
+Gen AI
+1. POJO class
+2. IDE and the intelli sence
+3. Google translate (2006) Speak in one language and listen in another. Speak in one language and the text is translated into another.
+4. Siri/ Alexa (2012) It gives answers to our questions. It locks the door. It creates alaram, changes the alram time etc.
+
+Why the Buzz of Gen AI now (since 2 years)
+
+Remember, till 2013 we had HTML4
+Until 2013, if we wish to see media content in web browsers, Adobe FLash was necessary.
+But other companies like MS, Google etc. wanted to take round through adobe flash to avoid paying hefty licence fees.
+Earlier to this, it was decided that HTML5 would be released by 2022 only!
+But all these companies along some eCommerce like Amazon brought HTML5 almost a decade before the proposed time. Social Media like Meta too added fuel to this.
+
+Because of which, lot of lot of lot data was captured by these companies.
+
+Since lot of data is now available, we can do analysis.
+Big data hadoop which structures/organises the unstructured/unorganised data.
+And the Data Analytics INFERS the data.
+And Data Science makes predictions.
+
+LANGUAGE MODEL:
+When you start giving the prompt:
+Dear Chat-GPT ... "give me" "a program" for 
+
+The Gen AI (system) creates content that may not have been existed before!
+It may depent on parts of the content. But not fully.
+Thus the Gen AI creates all new content.
+IT may return the same content if you prompt it again or it may intelligently return you a differemt content!
+
+1. how did we get from the single purpose systems/Apps like G-translator or siri to chatGPT?
+
+2. Whats the core technology behind chatGPT?
+
+3. Whats the future of the AI and particularly Gen AI?
+
+4. Whats are risks and should we be concerned ?
+
+It took 80 months for google to reach 10 crore customers/registrations
+35 months for facebook
+20 months for instagram
+9 months for tiktok
+2 months for chatGPT
+
+transformer in AI:
+It primarily depends on NLP for sequence based tasks.
+It relies on something called as self-attention.
+Self improvement -> machine translation, improvements in architectures etc.
+
+Sequence modeling: the order in which data is received (sequential)
+Self-attention mechanism: (recongine the words, and assign weightage to each of the words and connect them sequentially)
+Parallel processing: Similar to multi threading where different predictions arte made parallely
+
+How the transformers work:
+1. Input embedding: words are converted into numerical vectors
+2. Positional encoding: how the words are positioned or must be positioned in sequence.
+3. Encoder structure: with the input being positioned, the context based representations are generated and these representations help in getting the o/p sequences.
+4. Attention Matrices: These matrices are the core of the transformer. they calculate and assign the weights and thus determines the relationships and sequence of the words.
+
+Transformers help in achiving the right predictions
+Parallel processing
+Scalable
+
+Applications where we use prompt engineering:
+1. Chat bots
+2. AI models like chatGPT
+3. copilot (coding assistants)
+4. Data analysis (numpy pandas)
+
+As we know the AI works on petterns of data and not the way human brain works, we must know how prompt engineering (PE).
+
+IMPORTANT POINTS IN PE:
+instruction clarity: clarity on what we ask
+
+Role prompting: Ask the AI model to act as a specific role say such as a police or a pilot or air hostess or a judge or a particular machine etc.
+
+step-wise breakdown: What we are required to know must be Broken down into steps. Similar to how we write algorithms.
+
+Backgroud: setting the Context in/under which we are looking for the solution.
+
+Be specific and clear
+Step wise prompts
+Contexts
+Role based prompts
+Guides (examples, models, structures, abstraction etc.)
+Redo with iterations with each iteration being refined.
+
+RAG:
+It is used to build the AI models like chatGPT
+Its focuses on accuracy/precision and thus smarter with what it responds, specially when the data is not available.
+
+How RAG works:
+step1: We give a prompt.
+step2: It retreives relevant documents from knowledge source (data centres)
+
+The data centres are created by downloading as much part of the web as possible. wikipedia, social media platforms, youtube, stack over flow, reddit, yahoo etc.
+
+step3: The retreived docs are now processed by the language models
+
+step4: The LLM generates the response/result/answer using both prompt and the retreived docs/info.
+
+RAG has Retreiver and Generator
+Retreiver: finds/searches for relevant docs/info
+Generator: uses the docs and the prompt to give the answer
+
+Technologies:
+Vector databases: Stores the data in format which the AI can understand
+Embeddings: Converts the text into vectors so that similar and synonyms can be found 
+Retreivers: Programs that fetch the most relevant docs/info from the data centres
+LLM: These models filter and finalize the answer
+RAG Frameworks: Under which the steps/pipeline is managed.
+
+TRENDS: in 2024 and beyond (Latest)
+
+Hybrid Retrieval: 
+A combination of keyword and vector for better search (faster and accurate filtering)
+
+RAG with structured Data:
+Augments the answers with refined DB queries (not just text)
+
+Enterprise RAG:
+Big companies like MAERSK, MS and even govt firms are also creating customised RAG for better support, knowledge base and results.
+
+Multi hop RAG
+Evaluation and Trust
+
+RAG helps when the relevant info is missing and thus it also helps in contructing new information.
+very useful with LLM generating the results
+Used extensively with chatbots, enterprise AI models.
+------------------------------------------
+Agentic AI is when the AI acts as Agents. Simply put they are AI agents.
+Nowadays you can see them in big hotels in Dubai, Abu Dhabi, LA etc.
+
+The AI agents help the Soldiers in the war zone. They help in finding land mines, locations of the enemies, tankers etc.
+
+The Agents, SELF LEARN. They dont just answer. They think!!!
+We saw recently a AI agent broke the hand of a human player.
+
+The AI agents, male plans, respond step by step (sequentially). They improve with the user feedback.
+May interact with other agents.
+
+THE future of AI-Agents:
+1. They may travel to client places for discussions!!
+2. They may be part of the Beaureucrats Round table meetings!!!
+3. They be part of the ISS team!!!
+4. They may be a companion to a lonely person at home!!!
+5. They may be part of the soldiers teams during the wars.
+6. They be used as even Terrorrists programmed to bomb and do hell of activities.
+
+
+How Agent is built:
+1. Observing, recognising (saving), perceiving and conceive what it see, listen and colectively this is INPUT
+2. Uses decision making (ML algorithms and AI) and infers or makes decisions.
+3. Once decides, Acts!!!
+4. Learns from the outcome of the responses. and adopts to the changes!!!
+
+How Agentic AI differs with AI?
+
+AI										AGENTIC
+may not learna and adopt				learns and adopts (visible progress)
+no memory of its own					has memory(keep tracks of tasks)
+Need i/p from user (passive)			initiates tasks itself (Active)
+Uni programming (one task at a time)	multiple tasks simultaneously
+A chatbot responds with fixed answers	Dynamically searches for the best answers
+
+COMPONENTS OF AGENTIC AI:
+Memory:		remembers, stores and uses it for future tasks and improvements
+APIs:		To do further tasks (when weather report is asked, it may use weather APIs)
+Planning:	Finds the steps required to complete the task (also uses better algorithms such greedy or dymanic)
+Gloas:		Sets the goals and finds the step by step unambigiuous solution.
+
+Examples of Agentic AI:
+LangChain, OpenAI, MetaGPT
+
+Trends in Agentic AI:
+enterprise, research, defence, ecommerce, space and aviation
+
+Challenges:
+feeding biased information
+Security lapses (Hacking, ransome-ware)
+Reliability: The software, hardware, external environments and threats
+Trust and Transperency: Business, religious, locations
+
+Core technologies with which Agentic AI are built:
+LLMs, Tools, APIs, Memory and orchestration frameworks
+
+AAI act with goals and independently
+Abilities: Plan, Act, react/reflect and adopt to changes
+Applications: Business, research
