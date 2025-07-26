@@ -363,3 +363,41 @@ IOT
 Deep learning Algorithms expert
 Data science with ML (IIT Madras DS 4 year course curriculam)
 Dev Ops and Cloud Computing
+---------------------------------------
+DAY5 CONTENT:
+UI/UX essentials
+Cloud Computing
+OOP essentials
+
+What are the goals of Gen AI?
+To generate a new content.
+
+Any two challenges associated with Gen AI ?
+Biased content, Hallucination
+
+The Most popular Gen AI model in the market?
+chatGPT
+
+The Most popular Gen AI models in the market?
+chatGPT, gemini, deepseek
+
+The Most popular Gen AI model in the market for image generation?
+Dall-E
+
+What exactly is the term token mean ion Gen AI models?
+An atomic/unit of text (prompt) such as a word or a phrase or a subword
+
+Which is called as the heart/beackbone of Gen AI models?
+transformer
+
+In which year the Modern Gen AI models got the backbone transformers?
+2017
+
+What is the biggest positive side of the RAG?
+It improves tokenisation, it allows access to external information
+
+The step by step prompting with examples (reasoning) leads to "Chain of thought prompting"
+
+Dall-E which is used for image generation using prompts, is also an example for MultiModal Gen AI system.
+
+Generating rsults with out task-specific training models is called as "Sero shot Learning"
